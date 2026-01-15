@@ -1,0 +1,32 @@
+% ./imageMods402.exe deer.ppm
+1. Annotate image with rectangle
+2. Annotate image with pattern from file
+3. Insert another image
+4. Write out current image
+5. Exit the program
+Enter int for main menu choice: 999
+Invalid menu option!
+1. Annotate image with rectangle
+2. Annotate image with pattern from file
+3. Insert another image
+4. Write out current image
+5. Exit the program
+Enter int for main menu choice: 2
+Enter string for file name containing pattern: notAFile.ppm
+Enter upper left corner of pattern row and column: foo bar
+Invalid data entered
+Enter upper left corner of pattern row and column: 50 50
+1. Red
+2. Green
+3. Blue
+4. Black
+5. White
+Enter int for pattern color: 5
+Error: Unable to open pattern file: notAFile.ppm
+1. Annotate image with rectangle
+2. Annotate image with pattern from file
+3. Insert another image
+4. Write out current image
+5. Exit the program
+Enter int for main menu choice: 5
+Thank you for using this program
