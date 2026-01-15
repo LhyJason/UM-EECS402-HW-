@@ -1,0 +1,570 @@
+Reading parameters from file: sampleParamsA.txt
+Parameters read in successfully - simulation is ready!
+===== Begin Simulation Parameters =====
+  Random generator seed: 12345
+  Simulation end time: 100
+  East-West Timing - Green: 10 Yellow: 2 Red: 23
+  North-South Timing - Green: 20 Yellow: 3 Red: 12
+  Arrival Distributions:
+    East - Mean: 2 StdDev: 0
+    West - Mean: 9 StdDev: 0
+    North - Mean: 4 StdDev: 0
+    South - Mean: 9 StdDev: 0
+  Percentage cars advancing through yellow: 0
+===== End Simulation Parameters =====
+
+Schedule simulation seed events
+Time: 0 Scheduled [Event Type: East-Bound Arrival Time: 2]
+Time: 0 Scheduled [Event Type: West-Bound Arrival Time: 9]
+Time: 0 Scheduled [Event Type: North-Bound Arrival Time: 4]
+Time: 0 Scheduled [Event Type: South-Bound Arrival Time: 9]
+Time: 0 Scheduled [Event Type: Light Change to EW Yellow Time: 10]
+
+Starting simulation!
+
+Handling [Event Type: East-Bound Arrival Time: 2]
+Time: 2 Car id: 0 Travel dir: East Arrived at: 2 - new queue length: 1
+Time: 2 Scheduled [Event Type: East-Bound Arrival Time: 4]
+
+Handling [Event Type: North-Bound Arrival Time: 4]
+Time: 4 Car id: 1 Travel dir: North Arrived at: 4 - queue length: 1
+Time: 4 Scheduled [Event Type: North-Bound Arrival Time: 8]
+
+Handling [Event Type: East-Bound Arrival Time: 4]
+Time: 4 Car id: 2 Travel dir: East Arrived at: 4 - new queue length: 2
+Time: 4 Scheduled [Event Type: East-Bound Arrival Time: 6]
+
+Handling [Event Type: East-Bound Arrival Time: 6]
+Time: 6 Car id: 3 Travel dir: East Arrived at: 6 - new queue length: 3
+Time: 6 Scheduled [Event Type: East-Bound Arrival Time: 8]
+
+Handling [Event Type: North-Bound Arrival Time: 8]
+Time: 8 Car id: 4 Travel dir: North Arrived at: 8 - queue length: 2
+Time: 8 Scheduled [Event Type: North-Bound Arrival Time: 12]
+
+Handling [Event Type: East-Bound Arrival Time: 8]
+Time: 8 Car id: 5 Travel dir: East Arrived at: 8 - new queue length: 4
+Time: 8 Scheduled [Event Type: East-Bound Arrival Time: 10]
+
+Handling [Event Type: West-Bound Arrival Time: 9]
+Time: 9 Car id: 6 Travel dir: West Arrived at: 9 - new queue length: 1
+Time: 9 Scheduled [Event Type: West-Bound Arrival Time: 18]
+
+Handling [Event Type: South-Bound Arrival Time: 9]
+Time: 9 Car id: 7 Travel dir: South Arrived at: 9 - queue length: 1
+Time: 9 Scheduled [Event Type: South-Bound Arrival Time: 18]
+
+Handling [Event Type: Light Change to EW Yellow Time: 10]
+Advancing cars on east-west green!
+  East-bound queue length before advancing: 4
+  West-bound queue length before advancing: 1
+  Car #0 advances east-bound on green
+  Car #2 advances east-bound on green
+  Car #3 advances east-bound on green
+  Car #5 advances east-bound on green
+  Car #6 advances west-bound on green
+  At time 10, 4 east-bound cars advanced on green, remaining queue length: 0
+  At time 10, 1 west-bound cars advanced on green, remaining queue length: 0
+Time: 10 Scheduled [Event Type: Light Change to NS Green Time: 12]
+
+Handling [Event Type: East-Bound Arrival Time: 10]
+Time: 10 Car id: 8 Travel dir: East Arrived at: 10 - new queue length: 1
+Time: 10 Scheduled [Event Type: East-Bound Arrival Time: 12]
+
+Handling [Event Type: North-Bound Arrival Time: 12]
+Time: 12 Car id: 9 Travel dir: North Arrived at: 12 - queue length: 3
+Time: 12 Scheduled [Event Type: North-Bound Arrival Time: 16]
+
+Handling [Event Type: Light Change to NS Green Time: 12]
+Advancing cars on east-west yellow
+  East-bound queue length before advancing: 1
+  West-bound queue length before advancing: 0
+  Next car will NOT advance east-bound on yellow
+  No cars in west-bound queue waiting to advance!
+  At time 12, 0 east-bound cars advanced on yellow, remaining queue length: 1
+  At time 12, 0 west-bound cars advanced on yellow, remaining queue length: 0
+Time: 12 Scheduled [Event Type: Light Change to NS Yellow Time: 32]
+
+Handling [Event Type: East-Bound Arrival Time: 12]
+Time: 12 Car id: 10 Travel dir: East Arrived at: 12 - new queue length: 2
+Time: 12 Scheduled [Event Type: East-Bound Arrival Time: 14]
+
+Handling [Event Type: East-Bound Arrival Time: 14]
+Time: 14 Car id: 11 Travel dir: East Arrived at: 14 - new queue length: 3
+Time: 14 Scheduled [Event Type: East-Bound Arrival Time: 16]
+
+Handling [Event Type: North-Bound Arrival Time: 16]
+Time: 16 Car id: 12 Travel dir: North Arrived at: 16 - queue length: 4
+Time: 16 Scheduled [Event Type: North-Bound Arrival Time: 20]
+
+Handling [Event Type: East-Bound Arrival Time: 16]
+Time: 16 Car id: 13 Travel dir: East Arrived at: 16 - new queue length: 4
+Time: 16 Scheduled [Event Type: East-Bound Arrival Time: 18]
+
+Handling [Event Type: West-Bound Arrival Time: 18]
+Time: 18 Car id: 14 Travel dir: West Arrived at: 18 - new queue length: 1
+Time: 18 Scheduled [Event Type: West-Bound Arrival Time: 27]
+
+Handling [Event Type: South-Bound Arrival Time: 18]
+Time: 18 Car id: 15 Travel dir: South Arrived at: 18 - queue length: 2
+Time: 18 Scheduled [Event Type: South-Bound Arrival Time: 27]
+
+Handling [Event Type: East-Bound Arrival Time: 18]
+Time: 18 Car id: 16 Travel dir: East Arrived at: 18 - new queue length: 5
+Time: 18 Scheduled [Event Type: East-Bound Arrival Time: 20]
+
+Handling [Event Type: North-Bound Arrival Time: 20]
+Time: 20 Car id: 17 Travel dir: North Arrived at: 20 - queue length: 5
+Time: 20 Scheduled [Event Type: North-Bound Arrival Time: 24]
+
+Handling [Event Type: East-Bound Arrival Time: 20]
+Time: 20 Car id: 18 Travel dir: East Arrived at: 20 - new queue length: 6
+Time: 20 Scheduled [Event Type: East-Bound Arrival Time: 22]
+
+Handling [Event Type: East-Bound Arrival Time: 22]
+Time: 22 Car id: 19 Travel dir: East Arrived at: 22 - new queue length: 7
+Time: 22 Scheduled [Event Type: East-Bound Arrival Time: 24]
+
+Handling [Event Type: North-Bound Arrival Time: 24]
+Time: 24 Car id: 20 Travel dir: North Arrived at: 24 - queue length: 6
+Time: 24 Scheduled [Event Type: North-Bound Arrival Time: 28]
+
+Handling [Event Type: East-Bound Arrival Time: 24]
+Time: 24 Car id: 21 Travel dir: East Arrived at: 24 - new queue length: 8
+Time: 24 Scheduled [Event Type: East-Bound Arrival Time: 26]
+
+Handling [Event Type: East-Bound Arrival Time: 26]
+Time: 26 Car id: 22 Travel dir: East Arrived at: 26 - new queue length: 9
+Time: 26 Scheduled [Event Type: East-Bound Arrival Time: 28]
+
+Handling [Event Type: West-Bound Arrival Time: 27]
+Time: 27 Car id: 23 Travel dir: West Arrived at: 27 - new queue length: 2
+Time: 27 Scheduled [Event Type: West-Bound Arrival Time: 36]
+
+Handling [Event Type: South-Bound Arrival Time: 27]
+Time: 27 Car id: 24 Travel dir: South Arrived at: 27 - queue length: 3
+Time: 27 Scheduled [Event Type: South-Bound Arrival Time: 36]
+
+Handling [Event Type: North-Bound Arrival Time: 28]
+Time: 28 Car id: 25 Travel dir: North Arrived at: 28 - queue length: 7
+Time: 28 Scheduled [Event Type: North-Bound Arrival Time: 32]
+
+Handling [Event Type: East-Bound Arrival Time: 28]
+Time: 28 Car id: 26 Travel dir: East Arrived at: 28 - new queue length: 10
+Time: 28 Scheduled [Event Type: East-Bound Arrival Time: 30]
+
+Handling [Event Type: East-Bound Arrival Time: 30]
+Time: 30 Car id: 27 Travel dir: East Arrived at: 30 - new queue length: 11
+Time: 30 Scheduled [Event Type: East-Bound Arrival Time: 32]
+
+Handling [Event Type: Light Change to NS Yellow Time: 32]
+Advancing cars on north-south green
+  North-bound queue length before advancing: 7
+  South-bound queue length before advancing: 3
+  Car #1 advances north-bound on green
+  Car #4 advances north-bound on green
+  Car #9 advances north-bound on green
+  Car #12 advances north-bound on green
+  Car #17 advances north-bound on green
+  Car #20 advances north-bound on green
+  Car #25 advances north-bound on green
+  Car #7 advances south-bound on green
+  Car #15 advances south-bound on green
+  Car #24 advances south-bound on green
+  At time 32, 7 north-bound cars advanced on green, remaining queue length: 0
+  At time 32, 3 south-bound cars advanced on green, remaining queue length: 0
+Time: 32 Scheduled [Event Type: Light Change to EW Green Time: 35]
+
+Handling [Event Type: North-Bound Arrival Time: 32]
+Time: 32 Car id: 28 Travel dir: North Arrived at: 32 - queue length: 1
+Time: 32 Scheduled [Event Type: North-Bound Arrival Time: 36]
+
+Handling [Event Type: East-Bound Arrival Time: 32]
+Time: 32 Car id: 29 Travel dir: East Arrived at: 32 - new queue length: 12
+Time: 32 Scheduled [Event Type: East-Bound Arrival Time: 34]
+
+Handling [Event Type: East-Bound Arrival Time: 34]
+Time: 34 Car id: 30 Travel dir: East Arrived at: 34 - new queue length: 13
+Time: 34 Scheduled [Event Type: East-Bound Arrival Time: 36]
+
+Handling [Event Type: Light Change to EW Green Time: 35]
+Advancing cars on north-south yellow
+  North-bound queue length before advancing: 1
+  South-bound queue length before advancing: 0
+  Next car will NOT advance north-bound on yellow
+  No cars in south-bound queue waiting to advance!
+  At time 35, 0 north-bound cars advanced on yellow, remaining queue length: 1
+  At time 35, 0 south-bound cars advanced on yellow, remaining queue length: 0
+Time: 35 Scheduled [Event Type: Light Change to EW Yellow Time: 45]
+
+Handling [Event Type: West-Bound Arrival Time: 36]
+Time: 36 Car id: 31 Travel dir: West Arrived at: 36 - new queue length: 3
+Time: 36 Scheduled [Event Type: West-Bound Arrival Time: 45]
+
+Handling [Event Type: South-Bound Arrival Time: 36]
+Time: 36 Car id: 32 Travel dir: South Arrived at: 36 - queue length: 1
+Time: 36 Scheduled [Event Type: South-Bound Arrival Time: 45]
+
+Handling [Event Type: North-Bound Arrival Time: 36]
+Time: 36 Car id: 33 Travel dir: North Arrived at: 36 - queue length: 2
+Time: 36 Scheduled [Event Type: North-Bound Arrival Time: 40]
+
+Handling [Event Type: East-Bound Arrival Time: 36]
+Time: 36 Car id: 34 Travel dir: East Arrived at: 36 - new queue length: 14
+Time: 36 Scheduled [Event Type: East-Bound Arrival Time: 38]
+
+Handling [Event Type: East-Bound Arrival Time: 38]
+Time: 38 Car id: 35 Travel dir: East Arrived at: 38 - new queue length: 15
+Time: 38 Scheduled [Event Type: East-Bound Arrival Time: 40]
+
+Handling [Event Type: North-Bound Arrival Time: 40]
+Time: 40 Car id: 36 Travel dir: North Arrived at: 40 - queue length: 3
+Time: 40 Scheduled [Event Type: North-Bound Arrival Time: 44]
+
+Handling [Event Type: East-Bound Arrival Time: 40]
+Time: 40 Car id: 37 Travel dir: East Arrived at: 40 - new queue length: 16
+Time: 40 Scheduled [Event Type: East-Bound Arrival Time: 42]
+
+Handling [Event Type: East-Bound Arrival Time: 42]
+Time: 42 Car id: 38 Travel dir: East Arrived at: 42 - new queue length: 17
+Time: 42 Scheduled [Event Type: East-Bound Arrival Time: 44]
+
+Handling [Event Type: North-Bound Arrival Time: 44]
+Time: 44 Car id: 39 Travel dir: North Arrived at: 44 - queue length: 4
+Time: 44 Scheduled [Event Type: North-Bound Arrival Time: 48]
+
+Handling [Event Type: East-Bound Arrival Time: 44]
+Time: 44 Car id: 40 Travel dir: East Arrived at: 44 - new queue length: 18
+Time: 44 Scheduled [Event Type: East-Bound Arrival Time: 46]
+
+Handling [Event Type: Light Change to EW Yellow Time: 45]
+Advancing cars on east-west green!
+  East-bound queue length before advancing: 18
+  West-bound queue length before advancing: 3
+  Car #8 advances east-bound on green
+  Car #10 advances east-bound on green
+  Car #11 advances east-bound on green
+  Car #13 advances east-bound on green
+  Car #16 advances east-bound on green
+  Car #18 advances east-bound on green
+  Car #19 advances east-bound on green
+  Car #21 advances east-bound on green
+  Car #22 advances east-bound on green
+  Car #26 advances east-bound on green
+  Car #14 advances west-bound on green
+  Car #23 advances west-bound on green
+  Car #31 advances west-bound on green
+  At time 45, 10 east-bound cars advanced on green, remaining queue length: 8
+  At time 45, 3 west-bound cars advanced on green, remaining queue length: 0
+Time: 45 Scheduled [Event Type: Light Change to NS Green Time: 47]
+
+Handling [Event Type: West-Bound Arrival Time: 45]
+Time: 45 Car id: 41 Travel dir: West Arrived at: 45 - new queue length: 1
+Time: 45 Scheduled [Event Type: West-Bound Arrival Time: 54]
+
+Handling [Event Type: South-Bound Arrival Time: 45]
+Time: 45 Car id: 42 Travel dir: South Arrived at: 45 - queue length: 2
+Time: 45 Scheduled [Event Type: South-Bound Arrival Time: 54]
+
+Handling [Event Type: East-Bound Arrival Time: 46]
+Time: 46 Car id: 43 Travel dir: East Arrived at: 46 - new queue length: 9
+Time: 46 Scheduled [Event Type: East-Bound Arrival Time: 48]
+
+Handling [Event Type: Light Change to NS Green Time: 47]
+Advancing cars on east-west yellow
+  East-bound queue length before advancing: 9
+  West-bound queue length before advancing: 1
+  Next car will NOT advance east-bound on yellow
+  Next car will NOT advance west-bound on yellow
+  At time 47, 0 east-bound cars advanced on yellow, remaining queue length: 9
+  At time 47, 0 west-bound cars advanced on yellow, remaining queue length: 1
+Time: 47 Scheduled [Event Type: Light Change to NS Yellow Time: 67]
+
+Handling [Event Type: North-Bound Arrival Time: 48]
+Time: 48 Car id: 44 Travel dir: North Arrived at: 48 - queue length: 5
+Time: 48 Scheduled [Event Type: North-Bound Arrival Time: 52]
+
+Handling [Event Type: East-Bound Arrival Time: 48]
+Time: 48 Car id: 45 Travel dir: East Arrived at: 48 - new queue length: 10
+Time: 48 Scheduled [Event Type: East-Bound Arrival Time: 50]
+
+Handling [Event Type: East-Bound Arrival Time: 50]
+Time: 50 Car id: 46 Travel dir: East Arrived at: 50 - new queue length: 11
+Time: 50 Scheduled [Event Type: East-Bound Arrival Time: 52]
+
+Handling [Event Type: North-Bound Arrival Time: 52]
+Time: 52 Car id: 47 Travel dir: North Arrived at: 52 - queue length: 6
+Time: 52 Scheduled [Event Type: North-Bound Arrival Time: 56]
+
+Handling [Event Type: East-Bound Arrival Time: 52]
+Time: 52 Car id: 48 Travel dir: East Arrived at: 52 - new queue length: 12
+Time: 52 Scheduled [Event Type: East-Bound Arrival Time: 54]
+
+Handling [Event Type: West-Bound Arrival Time: 54]
+Time: 54 Car id: 49 Travel dir: West Arrived at: 54 - new queue length: 2
+Time: 54 Scheduled [Event Type: West-Bound Arrival Time: 63]
+
+Handling [Event Type: South-Bound Arrival Time: 54]
+Time: 54 Car id: 50 Travel dir: South Arrived at: 54 - queue length: 3
+Time: 54 Scheduled [Event Type: South-Bound Arrival Time: 63]
+
+Handling [Event Type: East-Bound Arrival Time: 54]
+Time: 54 Car id: 51 Travel dir: East Arrived at: 54 - new queue length: 13
+Time: 54 Scheduled [Event Type: East-Bound Arrival Time: 56]
+
+Handling [Event Type: North-Bound Arrival Time: 56]
+Time: 56 Car id: 52 Travel dir: North Arrived at: 56 - queue length: 7
+Time: 56 Scheduled [Event Type: North-Bound Arrival Time: 60]
+
+Handling [Event Type: East-Bound Arrival Time: 56]
+Time: 56 Car id: 53 Travel dir: East Arrived at: 56 - new queue length: 14
+Time: 56 Scheduled [Event Type: East-Bound Arrival Time: 58]
+
+Handling [Event Type: East-Bound Arrival Time: 58]
+Time: 58 Car id: 54 Travel dir: East Arrived at: 58 - new queue length: 15
+Time: 58 Scheduled [Event Type: East-Bound Arrival Time: 60]
+
+Handling [Event Type: North-Bound Arrival Time: 60]
+Time: 60 Car id: 55 Travel dir: North Arrived at: 60 - queue length: 8
+Time: 60 Scheduled [Event Type: North-Bound Arrival Time: 64]
+
+Handling [Event Type: East-Bound Arrival Time: 60]
+Time: 60 Car id: 56 Travel dir: East Arrived at: 60 - new queue length: 16
+Time: 60 Scheduled [Event Type: East-Bound Arrival Time: 62]
+
+Handling [Event Type: East-Bound Arrival Time: 62]
+Time: 62 Car id: 57 Travel dir: East Arrived at: 62 - new queue length: 17
+Time: 62 Scheduled [Event Type: East-Bound Arrival Time: 64]
+
+Handling [Event Type: West-Bound Arrival Time: 63]
+Time: 63 Car id: 58 Travel dir: West Arrived at: 63 - new queue length: 3
+Time: 63 Scheduled [Event Type: West-Bound Arrival Time: 72]
+
+Handling [Event Type: South-Bound Arrival Time: 63]
+Time: 63 Car id: 59 Travel dir: South Arrived at: 63 - queue length: 4
+Time: 63 Scheduled [Event Type: South-Bound Arrival Time: 72]
+
+Handling [Event Type: North-Bound Arrival Time: 64]
+Time: 64 Car id: 60 Travel dir: North Arrived at: 64 - queue length: 9
+Time: 64 Scheduled [Event Type: North-Bound Arrival Time: 68]
+
+Handling [Event Type: East-Bound Arrival Time: 64]
+Time: 64 Car id: 61 Travel dir: East Arrived at: 64 - new queue length: 18
+Time: 64 Scheduled [Event Type: East-Bound Arrival Time: 66]
+
+Handling [Event Type: East-Bound Arrival Time: 66]
+Time: 66 Car id: 62 Travel dir: East Arrived at: 66 - new queue length: 19
+Time: 66 Scheduled [Event Type: East-Bound Arrival Time: 68]
+
+Handling [Event Type: Light Change to NS Yellow Time: 67]
+Advancing cars on north-south green
+  North-bound queue length before advancing: 9
+  South-bound queue length before advancing: 4
+  Car #28 advances north-bound on green
+  Car #33 advances north-bound on green
+  Car #36 advances north-bound on green
+  Car #39 advances north-bound on green
+  Car #44 advances north-bound on green
+  Car #47 advances north-bound on green
+  Car #52 advances north-bound on green
+  Car #55 advances north-bound on green
+  Car #60 advances north-bound on green
+  Car #32 advances south-bound on green
+  Car #42 advances south-bound on green
+  Car #50 advances south-bound on green
+  Car #59 advances south-bound on green
+  At time 67, 9 north-bound cars advanced on green, remaining queue length: 0
+  At time 67, 4 south-bound cars advanced on green, remaining queue length: 0
+Time: 67 Scheduled [Event Type: Light Change to EW Green Time: 70]
+
+Handling [Event Type: North-Bound Arrival Time: 68]
+Time: 68 Car id: 63 Travel dir: North Arrived at: 68 - queue length: 1
+Time: 68 Scheduled [Event Type: North-Bound Arrival Time: 72]
+
+Handling [Event Type: East-Bound Arrival Time: 68]
+Time: 68 Car id: 64 Travel dir: East Arrived at: 68 - new queue length: 20
+Time: 68 Scheduled [Event Type: East-Bound Arrival Time: 70]
+
+Handling [Event Type: Light Change to EW Green Time: 70]
+Advancing cars on north-south yellow
+  North-bound queue length before advancing: 1
+  South-bound queue length before advancing: 0
+  Next car will NOT advance north-bound on yellow
+  No cars in south-bound queue waiting to advance!
+  At time 70, 0 north-bound cars advanced on yellow, remaining queue length: 1
+  At time 70, 0 south-bound cars advanced on yellow, remaining queue length: 0
+Time: 70 Scheduled [Event Type: Light Change to EW Yellow Time: 80]
+
+Handling [Event Type: East-Bound Arrival Time: 70]
+Time: 70 Car id: 65 Travel dir: East Arrived at: 70 - new queue length: 21
+Time: 70 Scheduled [Event Type: East-Bound Arrival Time: 72]
+
+Handling [Event Type: West-Bound Arrival Time: 72]
+Time: 72 Car id: 66 Travel dir: West Arrived at: 72 - new queue length: 4
+Time: 72 Scheduled [Event Type: West-Bound Arrival Time: 81]
+
+Handling [Event Type: South-Bound Arrival Time: 72]
+Time: 72 Car id: 67 Travel dir: South Arrived at: 72 - queue length: 1
+Time: 72 Scheduled [Event Type: South-Bound Arrival Time: 81]
+
+Handling [Event Type: North-Bound Arrival Time: 72]
+Time: 72 Car id: 68 Travel dir: North Arrived at: 72 - queue length: 2
+Time: 72 Scheduled [Event Type: North-Bound Arrival Time: 76]
+
+Handling [Event Type: East-Bound Arrival Time: 72]
+Time: 72 Car id: 69 Travel dir: East Arrived at: 72 - new queue length: 22
+Time: 72 Scheduled [Event Type: East-Bound Arrival Time: 74]
+
+Handling [Event Type: East-Bound Arrival Time: 74]
+Time: 74 Car id: 70 Travel dir: East Arrived at: 74 - new queue length: 23
+Time: 74 Scheduled [Event Type: East-Bound Arrival Time: 76]
+
+Handling [Event Type: North-Bound Arrival Time: 76]
+Time: 76 Car id: 71 Travel dir: North Arrived at: 76 - queue length: 3
+Time: 76 Scheduled [Event Type: North-Bound Arrival Time: 80]
+
+Handling [Event Type: East-Bound Arrival Time: 76]
+Time: 76 Car id: 72 Travel dir: East Arrived at: 76 - new queue length: 24
+Time: 76 Scheduled [Event Type: East-Bound Arrival Time: 78]
+
+Handling [Event Type: East-Bound Arrival Time: 78]
+Time: 78 Car id: 73 Travel dir: East Arrived at: 78 - new queue length: 25
+Time: 78 Scheduled [Event Type: East-Bound Arrival Time: 80]
+
+Handling [Event Type: Light Change to EW Yellow Time: 80]
+Advancing cars on east-west green!
+  East-bound queue length before advancing: 25
+  West-bound queue length before advancing: 4
+  Car #27 advances east-bound on green
+  Car #29 advances east-bound on green
+  Car #30 advances east-bound on green
+  Car #34 advances east-bound on green
+  Car #35 advances east-bound on green
+  Car #37 advances east-bound on green
+  Car #38 advances east-bound on green
+  Car #40 advances east-bound on green
+  Car #43 advances east-bound on green
+  Car #45 advances east-bound on green
+  Car #41 advances west-bound on green
+  Car #49 advances west-bound on green
+  Car #58 advances west-bound on green
+  Car #66 advances west-bound on green
+  At time 80, 10 east-bound cars advanced on green, remaining queue length: 15
+  At time 80, 4 west-bound cars advanced on green, remaining queue length: 0
+Time: 80 Scheduled [Event Type: Light Change to NS Green Time: 82]
+
+Handling [Event Type: North-Bound Arrival Time: 80]
+Time: 80 Car id: 74 Travel dir: North Arrived at: 80 - queue length: 4
+Time: 80 Scheduled [Event Type: North-Bound Arrival Time: 84]
+
+Handling [Event Type: East-Bound Arrival Time: 80]
+Time: 80 Car id: 75 Travel dir: East Arrived at: 80 - new queue length: 16
+Time: 80 Scheduled [Event Type: East-Bound Arrival Time: 82]
+
+Handling [Event Type: West-Bound Arrival Time: 81]
+Time: 81 Car id: 76 Travel dir: West Arrived at: 81 - new queue length: 1
+Time: 81 Scheduled [Event Type: West-Bound Arrival Time: 90]
+
+Handling [Event Type: South-Bound Arrival Time: 81]
+Time: 81 Car id: 77 Travel dir: South Arrived at: 81 - queue length: 2
+Time: 81 Scheduled [Event Type: South-Bound Arrival Time: 90]
+
+Handling [Event Type: Light Change to NS Green Time: 82]
+Advancing cars on east-west yellow
+  East-bound queue length before advancing: 16
+  West-bound queue length before advancing: 1
+  Next car will NOT advance east-bound on yellow
+  Next car will NOT advance west-bound on yellow
+  At time 82, 0 east-bound cars advanced on yellow, remaining queue length: 16
+  At time 82, 0 west-bound cars advanced on yellow, remaining queue length: 1
+Time: 82 Scheduled [Event Type: Light Change to NS Yellow Time: 102]
+
+Handling [Event Type: East-Bound Arrival Time: 82]
+Time: 82 Car id: 78 Travel dir: East Arrived at: 82 - new queue length: 17
+Time: 82 Scheduled [Event Type: East-Bound Arrival Time: 84]
+
+Handling [Event Type: North-Bound Arrival Time: 84]
+Time: 84 Car id: 79 Travel dir: North Arrived at: 84 - queue length: 5
+Time: 84 Scheduled [Event Type: North-Bound Arrival Time: 88]
+
+Handling [Event Type: East-Bound Arrival Time: 84]
+Time: 84 Car id: 80 Travel dir: East Arrived at: 84 - new queue length: 18
+Time: 84 Scheduled [Event Type: East-Bound Arrival Time: 86]
+
+Handling [Event Type: East-Bound Arrival Time: 86]
+Time: 86 Car id: 81 Travel dir: East Arrived at: 86 - new queue length: 19
+Time: 86 Scheduled [Event Type: East-Bound Arrival Time: 88]
+
+Handling [Event Type: North-Bound Arrival Time: 88]
+Time: 88 Car id: 82 Travel dir: North Arrived at: 88 - queue length: 6
+Time: 88 Scheduled [Event Type: North-Bound Arrival Time: 92]
+
+Handling [Event Type: East-Bound Arrival Time: 88]
+Time: 88 Car id: 83 Travel dir: East Arrived at: 88 - new queue length: 20
+Time: 88 Scheduled [Event Type: East-Bound Arrival Time: 90]
+
+Handling [Event Type: West-Bound Arrival Time: 90]
+Time: 90 Car id: 84 Travel dir: West Arrived at: 90 - new queue length: 2
+Time: 90 Scheduled [Event Type: West-Bound Arrival Time: 99]
+
+Handling [Event Type: South-Bound Arrival Time: 90]
+Time: 90 Car id: 85 Travel dir: South Arrived at: 90 - queue length: 3
+Time: 90 Scheduled [Event Type: South-Bound Arrival Time: 99]
+
+Handling [Event Type: East-Bound Arrival Time: 90]
+Time: 90 Car id: 86 Travel dir: East Arrived at: 90 - new queue length: 21
+Time: 90 Scheduled [Event Type: East-Bound Arrival Time: 92]
+
+Handling [Event Type: North-Bound Arrival Time: 92]
+Time: 92 Car id: 87 Travel dir: North Arrived at: 92 - queue length: 7
+Time: 92 Scheduled [Event Type: North-Bound Arrival Time: 96]
+
+Handling [Event Type: East-Bound Arrival Time: 92]
+Time: 92 Car id: 88 Travel dir: East Arrived at: 92 - new queue length: 22
+Time: 92 Scheduled [Event Type: East-Bound Arrival Time: 94]
+
+Handling [Event Type: East-Bound Arrival Time: 94]
+Time: 94 Car id: 89 Travel dir: East Arrived at: 94 - new queue length: 23
+Time: 94 Scheduled [Event Type: East-Bound Arrival Time: 96]
+
+Handling [Event Type: North-Bound Arrival Time: 96]
+Time: 96 Car id: 90 Travel dir: North Arrived at: 96 - queue length: 8
+Time: 96 Scheduled [Event Type: North-Bound Arrival Time: 100]
+
+Handling [Event Type: East-Bound Arrival Time: 96]
+Time: 96 Car id: 91 Travel dir: East Arrived at: 96 - new queue length: 24
+Time: 96 Scheduled [Event Type: East-Bound Arrival Time: 98]
+
+Handling [Event Type: East-Bound Arrival Time: 98]
+Time: 98 Car id: 92 Travel dir: East Arrived at: 98 - new queue length: 25
+Time: 98 Scheduled [Event Type: East-Bound Arrival Time: 100]
+
+Handling [Event Type: West-Bound Arrival Time: 99]
+Time: 99 Car id: 93 Travel dir: West Arrived at: 99 - new queue length: 3
+Time: 99 Scheduled [Event Type: West-Bound Arrival Time: 108]
+
+Handling [Event Type: South-Bound Arrival Time: 99]
+Time: 99 Car id: 94 Travel dir: South Arrived at: 99 - queue length: 4
+Time: 99 Scheduled [Event Type: South-Bound Arrival Time: 108]
+
+Handling [Event Type: North-Bound Arrival Time: 100]
+Time: 100 Car id: 95 Travel dir: North Arrived at: 100 - queue length: 9
+Time: 100 Scheduled [Event Type: North-Bound Arrival Time: 104]
+
+Handling [Event Type: East-Bound Arrival Time: 100]
+Time: 100 Car id: 96 Travel dir: East Arrived at: 100 - new queue length: 26
+Time: 100 Scheduled [Event Type: East-Bound Arrival Time: 102]
+
+Next event occurs AFTER the simulation end time ([Event Type: Light Change to NS Yellow Time: 102])!
+Simulation ran successfully!
+
+===== Begin Simulation Statistics =====
+  Longest east-bound queue: 26
+  Longest west-bound queue: 4
+  Longest north-bound queue: 9
+  Longest south-bound queue: 4
+  Total cars advanced east-bound: 24
+  Total cars advanced west-bound: 8
+  Total cars advanced north-bound: 16
+  Total cars advanced south-bound: 7
+===== End Simulation Statistics =====

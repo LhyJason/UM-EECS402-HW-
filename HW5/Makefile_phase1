@@ -1,0 +1,31 @@
+# File: Makefile_phase1
+# Purpose: Build Phase 1 template test executable (phase1test)
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -pedantic -std=c++11 -g
+
+# Phase 1 test only needs these .cpp files
+SRC = \
+    CarClass.cpp \
+    EventClass.cpp \
+    random.cpp \
+    main_phase1_test.cpp
+
+OBJ = $(SRC:.cpp=.o)
+
+EXEC = phase1test
+
+all: p1test
+
+# Build the Phase 1 test executable
+p1test: $(OBJ)
+	$(CXX) $(CXXFLAGS) $(OBJ) -o $(EXEC)
+
+# Compile rule for .cpp depending on all template .h/.inl
+%.o: %.cpp \
+      LinkedNodeClass.h SortedListClass.h SortedListClass.inl \
+      FIFOQueueClass.h FIFOQueueClass.inl
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJ) $(EXEC)
