@@ -1,0 +1,5 @@
+Would you like to enter angle in degrees (d) or radians (r)? d
+Enter the angle: 1234.567
+How many terms to use in the series (1 to 5 inclusive): 10
+ERROR: Invalid input - must respond with value between 1 and 5!
+Unable to provide results due to invalid inputs!

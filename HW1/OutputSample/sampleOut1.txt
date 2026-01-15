@@ -1,0 +1,10 @@
+Would you like to enter angle in degrees (d) or radians (r)? d
+Enter the angle: 58
+How many terms to use in the series (1 to 5 inclusive): 4
+sin(angle) = 0.848045
+
+Here are results for other numbers of terms:
+  # terms: 1 result: 1.01229
+  # terms: 2 result: 0.839403
+  # terms: 3 result: 0.848261
+  # terms: 5 result: 0.848048
