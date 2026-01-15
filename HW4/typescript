@@ -1,0 +1,13 @@
+Script started on 2025-11-18 15:40:36-05:00 [TERM="xterm" TTY="/dev/pts/5" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ make
+[?2004lg++ -Wall -Wextra -pedantic -std=c++11 -g -c LinkedNodeClass.cpp -o LinkedNodeClass.o
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c SortedListClass.cpp -o SortedListClass.o
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c FIFOQueueClass.cpp -o FIFOQueueClass.o
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c LIFOStackClass.cpp -o LIFOStackClass.o
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c project4.cpp -o project4.o
+g++ -Wall -Wextra -pedantic -std=c++11 -g LinkedNodeClass.o SortedListClass.o FIFOQueueClass.o LIFOStackClass.o project4.o -o proj4.exe
+[?2004hbash-5.1$ ./proj4.exe
+[?2004l[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2025-11-18 15:41:05-05:00 [COMMAND_EXIT_CODE="0"]
